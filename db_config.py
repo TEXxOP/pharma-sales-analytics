@@ -14,7 +14,7 @@ load_dotenv(_PROJECT_ROOT / ".env")
 
 # SQLite database file path
 SQLITE_DB_PATH = _PROJECT_ROOT / "pharma.db"
-SQLITE_URL = f"sqlite:///{SQLITE_DB_PATH.as_posix()}"
+SQLITE_URL = "sqlite:///pharma.db"
 
 # PostgreSQL database URL from env
 PG_URL = os.getenv("DATABASE_URL", "postgresql://admin:admin123@localhost:5434/pharma_analytics")

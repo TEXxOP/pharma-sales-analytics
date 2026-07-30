@@ -47,6 +47,11 @@ st.markdown("""
     /* Main background */
     .stApp {
         background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+        color: #e6edf3 !important;
+    }
+
+    .stApp p, .stApp span, .stApp label, .stApp div {
+        color: #e6edf3;
     }
 
     /* Sidebar styling */
