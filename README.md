@@ -1,4 +1,4 @@
-# 💊 Pharma Sales Analytics Dashboard
+# Pharma Sales Analytics Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://postgresql.org)
@@ -10,7 +10,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -48,7 +48,7 @@
 
 ---
 
-## 📊 Dashboard Pages
+## Dashboard Pages
 
 | # | Page | What It Shows | SQL Skills Demonstrated |
 |---|------|--------------|------------------------|
@@ -61,7 +61,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
@@ -71,7 +71,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/pharma-sales-analytics.git
+git clone https://github.com/TEXxOP/pharma-sales-analytics.git
 cd pharma-sales-analytics
 
 # 2. Start PostgreSQL
@@ -94,7 +94,7 @@ The dashboard will open at **http://localhost:8501**
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > *Screenshots will be added after deployment*
 
@@ -107,7 +107,7 @@ The dashboard will open at **http://localhost:8501**
 
 ---
 
-## 🔍 10 SQL Queries — Business Problems Solved
+## 10 SQL Queries — Business Problems Solved
 
 Each query is a standalone `.sql` file with detailed comments explaining the business logic and SQL techniques used.
 
@@ -126,7 +126,7 @@ Each query is a standalone `.sql` file with detailed comments explaining the bus
 
 ---
 
-## 📈 Key Insights from the Data
+## Key Insights from the Data
 
 - **Oncology dominates revenue** despite lower transaction volume — high-value drugs ($500–$2,000/unit) drive disproportionate revenue
 - **Q4 revenue spikes 15–20%** consistently across territories, driven by year-end budget utilization
@@ -136,7 +136,7 @@ Each query is a standalone `.sql` file with detailed comments explaining the bus
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
@@ -150,13 +150,13 @@ Each query is a standalone `.sql` file with detailed comments explaining the bus
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 pharma-sales-analytics/
 ├── docker-compose.yml          # PostgreSQL container
 ├── requirements.txt            # Python dependencies
-├── .env                        # Database credentials
+├── .env.example                # Database configuration template
 ├── .gitignore
 ├── README.md
 ├── data/
@@ -183,6 +183,6 @@ pharma-sales-analytics/
 
 ---
 
-## 📝 License
+## License
 
 This project is for portfolio and educational purposes. Built to demonstrate SQL, Python analytics, and dashboarding skills for healthcare consulting roles.
